@@ -37,6 +37,7 @@ body {
   font-weight: bold;
   color: black;
   font-size: 1.2em;
+  cursor: pointer;
 }
 
 .navbar .logo span {
@@ -338,6 +339,7 @@ nav ul.primary-nav {
 }
 
 nav li a {
+  cursor: pointer;
   color: white;
   text-decoration: none;
   display: block;
@@ -349,7 +351,7 @@ nav li a {
 }
 
 nav li a:hover {
-  transform: scale(105%)
+  transform: scale(105%);
 }
 
 .mobile-menu-exit {
