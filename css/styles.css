@@ -349,7 +349,7 @@ nav li a {
 }
 
 nav li a:hover {
-  transform: scale(105%);
+  transform: scale(105%)
 }
 
 .mobile-menu-exit {
