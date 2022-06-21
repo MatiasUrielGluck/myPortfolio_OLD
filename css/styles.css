@@ -29,7 +29,7 @@ body {
   padding: 1em;
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 11;
 }
 
 .navbar .logo {
@@ -320,7 +320,7 @@ nav.menu-btn {
 
 nav {
   position: fixed;
-  z-index: 999;
+  z-index: 11;
   width: fit-content;
   right: 0;
   top: 0;
