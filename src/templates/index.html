@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS (scrolling animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/68ba57d17d.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Matías Uriel Gluck Website</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" id="logo_btn">Matías Uriel Gluck</a>
+
+            <img id="mobile-btn" class="mobile-menu" src="/static/images/menu.svg" alt="Open Navigation">
+
+            <nav class="inactive">
+                <img id="mobile-exit" class="mobile-menu-exit" src="/static/images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a id="home_btn"><span class="code-decor">&lt;&frasl;</span> Home <span class="code-decor">&gt;</span></a></li>
+                    <li><a id="about_btn">About me</a></li>
+                    <li><a id="skills_btn">My Skills</a></li>
+                    <li><a id="portfolio_btn">Portfolio</a></li>
+                    <li><a id="contact_btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section (Presentation) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Hey there,</p>
+                <h1>I'm Matías Uriel Gluck</h1>
+                <p class="subhead"><span class="code-decor">&lt;&frasl;</span> Full-Stack Web Developer <span class="code-decor">&gt;</span></p>
+            </div>
+
+            <img src="/static/images/perfil.jpg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up"  data-aos-duration="2000">
+        <div class="container">
+            <p>
+                I'm a software engenieering student, from CABA, Buenos Aires, Argentina.
+            </p>
+            <p>
+                I took courses and projects in the area of web development:
+            </p>
+            <br>
+            <ul class="fa-ul about-list" data-aos="fade-right" data-aos-duration="1500">
+                <li><span class="fa-li"><i class="fa-solid fa-code"></i></span>Full Stack Web Developer - Python Course,  Codo a Codo 4.0</li>
+                <li><span class="fa-li"><i class="fa-solid fa-code"></i></span>The Web Developer Bootcamp 2022, Udemy</li>
+                <li><span class="fa-li"><i class="fa-solid fa-code"></i></span>Devchallenges.io</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2><span class="code-decor">&lt;&frasl;</span> My skills <span class="code-decor">&gt;</span></h2>
+        <div class="skills-panel" data-aos="flip-up" data-aos-duration="1500">
+            <div class="skill">
+                <div class="name">
+                    <span>HTML</span>
+                </div>
+                <div class="bar html"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>CSS</span>
+                </div>
+                <div class="bar css"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="bar bootstrap"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>JavaScript</span>
+                </div>
+                <div class="bar javascript"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>Python</span>
+                </div>
+                <div class="bar python"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>Node.js</span>
+                </div>
+                <div class="bar node"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>Vue.js</span>
+                </div>
+                <div class="bar vue"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>Django</span>
+                </div>
+                <div class="bar django"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>MySQL</span>
+                </div>
+                <div class="bar mysql"><span class="indicator"></span></div>
+            </div>
+
+            <div class="skill">
+                <div class="name">
+                    <span>English</span>
+                </div>
+                <div class="bar english"><span class="indicator"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2><span class="code-decor">&lt;&frasl;</span> Portfolio <span class="code-decor">&gt;</span></h2>
+
+        <div class="container">
+            <div class="portfolio-container" data-aos="fade-up"  data-aos-duration="2000">
+                <a href="https://github.com/MatiasUrielGluck/Sudoku-Python" target="_blank">
+                    <div class="project">
+                        <div class="image">
+                            <img src="/static/images/portfolio/sudoku.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Python Sudoku</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/MatiasUrielGluck/devChallenges" target="_blank">
+                    <div class="project">
+                        <div class="image">
+                            <img src="/static/images/portfolio/devchallenges.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Devchallenges.io</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/MatiasUrielGluck/Codo-A-Codo" target="_blank">
+                    <div class="project">
+                        <div class="image">
+                            <img src="/static/images/portfolio/pianos.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Gluck Pianos</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (TODO) -->
+    <section id="contact" class="contact-section">
+        <div class="container" data-aos="fade-right" data-aos-duration="1500">
+           
+            <h2><span class="code-decor">&lt;&frasl;</span> Contact me <span class="code-decor">&gt;</span></h2>
+
+            <form action="/sendmail", method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+
+                <input type="submit" class="send-message-btn" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer data-aos="fade-right"  data-aos-duration="1200">
+        <p>Created by <b>Matías Uriel Gluck</b></p>
+        <p><span class="code-decor">&lt;&frasl;</span><a href="https://github.com/MatiasUrielGluck/MyPortfolio" target="_blank">Click here</a> to see how I did it<span class="code-decor">&gt;</span></p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/mat%C3%ADas-uriel-gluck/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/MatiasUrielGluck" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCKbXB3qWadl9qUKiBF6i8Gw" target="_blank"><i class="fa-brands fa-youtube-square"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/scroll.js"></script>
+    <script src="/static/js/themes.js"></script>
+</html>
